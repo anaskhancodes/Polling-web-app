@@ -60,8 +60,23 @@ h3{
 }
 
 button{
-    margin-left: 210px;
+    margin-left: 200px;
     margin-top: 70px;
-    width: 117px;
-    height: 40px;
+    width: 155px;
+    height: 45px;
+    font-size: 25px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border: 2px solid rgb(86, 7, 160);
+    background-color: rgb(177, 146, 206);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+button:hover{
+    border: 2px solid rgb(177, 146, 206);
+    background-color: rgb(86, 7, 160);
+    color: white;
 }

@@ -24,11 +24,11 @@ const singUp = () => {
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in 
-            window.location.href = "otherpage.html";
+            window.location.href = "../Database/vote.html";
             // ...
         })
         .catch((error) => {
-            alert("error try again")
+            alert("error try again",error.message)
             console.log(error.code);
             console.log(error.message);
             // ..
@@ -52,7 +52,7 @@ const singIn = () => {
         .then((result) => {
             // Signed in
             // alert("Your successfully Sing In")
-            window.location.href = "otherpage.html";
+            window.location.href = "../Database/vote.html";
             // ...
         })
         .catch((error) => {
@@ -60,6 +60,5 @@ const singIn = () => {
             console.log(error.code);
             console.log(error.message);
         });
+        
 }
-
-

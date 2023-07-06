@@ -32,7 +32,7 @@ function sendData(){
         // "VoteNmber": vote-num
     })
 
-    // window.location.href = "vote.html";
+    window.location.href = "vote.html";
     
 }
     
