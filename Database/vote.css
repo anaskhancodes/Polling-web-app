@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.contaner{
+    width: 525px;
+    height: 640px;
+    /* background-color: cadetblue; */
+}
+
+#vote-num{
+    width: 245px;
+    height: 245px;
+    border-radius: 160px ;
+    border: 13px solid  rgb(86, 7, 160);
+    background-color: rgb(120, 8, 224);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 144px;
+    margin-top: 48px;
+}
+
+h1{
+    margin-left: 14px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 83, 83);
+    width: 800px;
+
+}
+
+h1 span{
+    font-size: 60px;
+    margin-left: 83px;
+    color: black;
+}
+
+h2{
+    margin-left: 14px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 83, 83);
+}
+
+h2 span{
+    margin-left: 124px;
+    color: black;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+
+button{
+    margin-left: 210px;
+    margin-top: 70px;
+    width: 117px;
+    height: 40px;
+}

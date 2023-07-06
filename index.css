@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    /* display: flex;
+    justify-content: center; */
+    background-color: rgb(240, 164, 0);
+    overflow: hidden;
+}
+
+.body-1{
+    width:  100px;
+    height: 100px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 76vw;
+    margin-top: 5vw;
+}
+
+.body-2{
+    width:  200px;
+    height: 200px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 21vw;
+    margin-top: -10vw;
+}
+
+.body-3{
+    width:  250px;
+    height: 250px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: 40vw;
+}
+
+.body-4{
+    width:  50px;
+    height: 50px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: 14vw;
+}
+
+.body-5{
+    width:  70px;
+    height: 70px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 88vw;
+    margin-top: 30vw;
+}
+
+
+button{
+    width: 590px;
+    height: 113px;
+    margin-left: 375px;
+    margin-top: 120px;
+    border-radius: 70px;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: 600;
+    background-color: rgb(240, 164, 0);
+    border: 8px solid rgb(32, 30, 39);
+    color: rgb(32, 30, 39);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(32, 30, 39);
+    color: rgb(240, 164, 0);
+    border: 8px solid white;
+}

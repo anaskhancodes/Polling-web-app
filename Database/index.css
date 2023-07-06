@@ -1,0 +1,119 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 164, 0);
+    /* overflow: hidden; */
+}
+
+.body-1{
+    width:  100px;
+    height: 100px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 10vw;
+}
+
+.body-2{
+    width:  200px;
+    height: 200px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: -60vw;
+    margin-top: -10vw;
+}
+
+/* .body-3{
+    width:  250px;
+    height: 250px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 71vw;
+    margin-top: 51vw;
+} */
+
+.body-4{
+    width:  50px;
+    height: 50px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: 34vw;
+    margin-top: -1vw;
+}
+
+.body-5{
+    width:  70px;
+    height: 70px;
+    border-radius: 20vw;
+    background-color: rgb(32, 30, 39);
+    position: absolute;
+    margin-left: -70vw;
+    margin-top: 30vw;
+}
+
+.form{
+    border: 3px solid white;
+    width: 50%;
+    margin-top: 13vw;
+    z-index: 3;
+    background-color: rgb(32, 30, 39);
+    /* margin-left: -24vw; */
+}
+
+input{
+    width: 43vw;
+    height: 2.3vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    border: 2px solid white;
+    background-color: rgb(32, 30, 39);
+    color: rgb(240, 164, 0); 
+}
+
+input:hover{
+    border:2px solid rgb(240, 164, 0);
+}
+
+label{
+    margin-left: 2vw;
+    /* margin-top: vw; */
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.form div{
+    margin-top: 2vw;
+    /* background-color: aqua; */
+}
+
+h1{
+    /* background-color: burlywood; */
+    height: 7vw;
+    position: absolute;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    position: absolute;
+    margin-top: 71vw;
+    width: 12vw;
+    height: 3vw;
+    background-color: rgb(32, 30, 39);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+button:hover{
+color: rgb(240, 164, 0);
+}

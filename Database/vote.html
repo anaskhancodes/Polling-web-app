@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vote.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="contaner">
+        <h1>Leader name <span></span></h1>
+        <h2>Party name <span></span></h2>
+        <h2>City name <span></span></h2>
+
+        <div id="vote-num">
+            <h3></h3>
+        </div>
+
+        <button id="Button" onclick="disableButton(); incrementNumber(); ">Add vote</button>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-database-compat.js"></script>
+
+
+    <script src="vote.js"></script>
+
+
+    <script>
+        function disableButton() {
+            let button = document.getElementById("Button");
+            button.disabled = true;
+            button.innerHTML = "Button Disabled";
+        }
+
+
+
+        function incrementNumber() {
+            let voteNum = document.getElementById("vote-num");
+            let h3Element = voteNum.getElementsByTagName("h3")[0];
+            let currentNumber = parseInt(h3Element.innerHTML) || 0;
+            let newNumber = currentNumber + 1;
+            h3Element.innerHTML = newNumber.toString();
+
+            console.log("currenrNumber", currentNumber);
+            console.log("newNumber", newNumber)
+        }
+    </script>
+</body>
+
+</html>
