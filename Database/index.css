@@ -117,3 +117,15 @@ button{
 button:hover{
 color: rgb(240, 164, 0);
 }
+
+#newPageButton{
+    position: absolute;
+    margin-top: 75vw;
+    width: 12vw;
+    height: 3vw;
+    background-color: rgb(32, 30, 39);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}

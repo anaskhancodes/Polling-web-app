@@ -32,8 +32,11 @@ function sendData(){
         // "VoteNmber": vote-num
     })
 
-    window.location.href = "vote.html";
+    // window.location.href = "../Sing-up Sing-in/index.html";
     
 }
     
+const newPage = () => {
+    window.location.href = "../Sing-up Sing-in/index.html"
+}
     
